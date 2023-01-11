@@ -1,0 +1,244 @@
+@media(max-width:1200px) {
+    .main__card {
+        width: 30%;
+    }
+}
+
+@media(max-width:992px) {
+    .subnav {
+        padding: 18px 15px;
+    }
+
+    .header__content_title {
+        font-size: 60px;
+    }
+
+    .header__content {
+        padding: 0 30px;
+    }
+
+    .header__price p {
+        padding: 25px 60px;
+        font-size: 45px;
+    }
+
+    .main__card_text {
+        padding: 0;
+    }
+
+    .main__cards {
+        gap: 15px;
+    }
+
+    .main__card {
+        width: 32%;
+    }
+
+    .map__title {
+        font-size: 45px;
+    }
+
+    .footer__item {
+        padding: 0 20px;
+    }
+
+    .main__content {
+        padding: 15px;
+    }
+
+    .main__content_text {
+        text-align: center;
+    }
+
+    .main__content_title {
+        top: 1030px;
+    }
+}
+
+@media(max-width:768px) {
+    .main__card {
+        width: 48%;
+    }
+
+
+    .main__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .main__content_text {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:576px) {
+    .nav__item {
+        display: flex;
+        padding: 17px 0;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 30px;
+        padding: 12px 18px;
+    }
+
+    .nav__list_link a {
+        padding: 15px 14px;
+    }
+
+    .header {
+        height: 650px;
+    }
+
+    .header__content {
+        gap: 8px
+    }
+
+    .header__content_title {
+        font-size: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .header__content_subtitle {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .header__content_text {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .header__price p {
+        padding: 20px 40px;
+        font-size: 40px;
+    }
+
+    .main__item {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .card__img {
+        height: 280px;
+    }
+
+    .main__card_text {
+        font-size: 16px;
+    }
+
+    .map__title {
+        font-size: 40px;
+        padding: 15px 0;
+    }
+
+    .main__content_pic {
+        height: 300px;
+    }
+
+    .main__content_title {
+        top: 1000px;
+        font-size: 50px;
+    }
+
+    .main__content_text {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:320px) {
+    .nav__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .subnav {
+        gap: 15px;
+        flex-direction: column;
+
+    }
+
+    .subnav__list {
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__price {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__content_text {
+        font-size: 15px;
+    }
+
+    .header__content_title {
+        font-size: 37px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .header__content_subtitle {
+        font-size: 25px;
+    }
+
+    .btn {
+        padding: 15px 40px;
+    }
+
+    .header__price p {
+        padding: 10px 20px;
+        font-size: 34px;
+    }
+
+    .cards__list {
+        row-gap: 11px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .padding {
+        padding: 15px 17px;
+    }
+
+    .main__card {
+        width: 100%;
+    }
+
+    .footer__item {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer__list {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .main__content {
+        margin: 15px auto;
+    }
+
+    .main__content_pic {
+        height: 150px;
+    }
+
+    .main__content_title {
+        font-size: 30px;
+        top: 1065px;
+    }
+
+    .main__content_text {
+        font-size: 11px;
+        margin-top: 15px;
+    }
+
+}
